@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   width: 300px;
-  height: 361px;
+  height: 360px;
   margin-left: 35%;
 }
 
@@ -78,8 +78,9 @@
   width: 100%;
   background-color: rgb(178, 205, 255);
   /* padding: 10px; */
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+  /* justify-content: flex-start; */
+  gap: 20px;
 }
 
 .stats li {
@@ -92,7 +93,7 @@
 }
 
 .stats li:not(:last-child) {
-  border-right: 1px solid rgb(136, 179, 243);
+  border-right: 1px solid #ffffff;
 }
 
 .label {
