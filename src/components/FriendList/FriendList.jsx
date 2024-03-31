@@ -6,7 +6,7 @@ import styles from './FriendList.module.css';
 function FriendListItem({avatar, name, isOnline}) {
     return (
   <li className={styles.item}>
-  <span className={isOnline ? 'status online' : 'status offline'}></span>
+  <span className = {isOnline ? styles.online : styles.offline}></span>
   <img className={styles.avatar} src={avatar} alt="User avatar" width="48" />
   <p className={styles.name}>{name}</p>
 </li>
@@ -21,7 +21,7 @@ FriendListItem.propTypes = {
 
 function FriendList({friends}) {
     return (
-     <ul class="friend-list">
+     <ul className={styles.list}>
             {friends.map(friend => (
                 <FriendListItem
                     key={friend.id}

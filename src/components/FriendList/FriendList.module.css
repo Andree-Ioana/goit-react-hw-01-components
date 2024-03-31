@@ -1,0 +1,42 @@
+
+
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    display: flex;
+   gap: 10px;
+   padding: 8px;
+    border: 1px solid #e0e0e0;
+    width: 200px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar{
+    border-radius: 5px;
+}
+
+.name{
+    font-size: 14px;
+        font-weight: bold;
+        color: black;
+}
+.online {
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+.offline {
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
